@@ -20,7 +20,7 @@ func main() {
 	// aoeusnth aoeustnh aoeusnth aoeusnth aoeusnthao eusnth aoeusnth aoeusnth
 	// aoeustnh aoeusnth aoeusnth aoeusnth aoeusnth aoeusnth
 	var snthsnth []class.FeatureClassID
-	for _, id := range s.registry() {
+	for _, id := range s.changed() {
 		if s.registry(sr.Version, id) != class.YES {
 			continue
 		}
